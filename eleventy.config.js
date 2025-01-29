@@ -1,4 +1,5 @@
 import pluginNavigation from "@11ty/eleventy-navigation";
+import eleventyRssPlugin from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
 import embedYouTube from "eleventy-plugin-youtube-embed";
@@ -29,6 +30,7 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(dateFilters);
+    eleventyConfig.addPlugin(eleventyRssPlugin);
     eleventyConfig.addPlugin(embedYouTube, { lite: true });
 
     const markdownItOptions = {
