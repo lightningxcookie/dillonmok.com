@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<h1 class="post-title">{{ title }}</h1>
+<p class="post-date">{{ date.toISOString() | fullDate }}</p>
+
+{{ content | safe }}
+
+<div class="tags">
+<p class="tags-label">Tags:</p>
+<ul class="tag-list">
+    <li>
+        {% for tag in tags %}
+            <a href="/tags/{{ tag }}" >{{ tag }}</a>
+        {% endfor %}
+    </li>
+</ul>
+</div>

@@ -1,0 +1,26 @@
+{% extends "base.njk" %}
+{% block content %}
+
+<div class="latest-posts">
+
+    <div>
+        {{ content | safe }}
+    </div>
+
+    <h1>Latest Posts</h1>
+    <ul>
+        {%- for post in collections.latestPosts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                <span>/ {{ post.data.date.toISOString() | isoDateOnly }}</span>
+
+            </li>
+        {% endfor %}
+    
+    </ul>
+
+</div>
+
+<a href="/blog">View all posts</a>
+
+{% endblock %}

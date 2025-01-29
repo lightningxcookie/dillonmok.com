@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            {% if not isHome %} 
+                {{ title }} -
+            {% endif %}
+            {{ metadata.title }}</title>
+        <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" title="no title/>
+        <link rel="alternate" href="https://dillonmok.com/feed.rss" type="application/rss+xml" title="Dillon Mok RSS Feed"/>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+        <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon"/>
+
+        <meta name="generator" content="{{ eleventy.generator }}">
+        <meta property="og:title" content="{{ title }}"/>
+        <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ metadata.description }}{% endif %}"/>
+        <meta name="description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ metadata.description }}{% endif %}"/>
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://dillonmok.com{{ page.url }}"/>
+        <meta name="fediverse:creator" content="{{ metadata.fediverse }}">
+        
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                
+                <nav class="site-nav">
+                    <h1 class="site-title">
+                        <a href="/">Dillon Mok</a>
+                    </h1>
+
+                    <div class="nav-links">
+                        {%- for entry in collections.all | eleventyNavigation %}
+                        <a href="{{ entry.url }}">{{ entry.title }}</a>
+                        {%- endfor %}
+                    </div>
+
+                </nav>
+                
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                {% block content %}
+                    {{ content | safe }}
+                {% endblock %}
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    <p>© {% year %} Dillon Mok</p>
+                </div>
+                
+
+                <p>Built with <a href="https://www.11ty.dev/">Eleventy</a></p>
+            </div>
+        </footer>
+    </body>
+</html>

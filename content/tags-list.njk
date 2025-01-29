@@ -1,0 +1,13 @@
+---
+layout: "page.njk"
+permalink: /tags/
+---
+
+<h2>Browse by tags</h2>
+
+<ul>
+{% for tag in collections.articles | getAllTags | sort %}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> / {{ collections[tag].length }} post{% if collections[tag].length > 1 %}s{% endif %}</li>
+{% endfor %}
+</ul>

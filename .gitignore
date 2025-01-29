@@ -1,0 +1,8 @@
+node_modules
+public
+config.json
+.cache
+
+.env
+tmp
+nginx.conf

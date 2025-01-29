@@ -1,0 +1,14 @@
+{
+    "title": "Dillon Mok",
+    "url": "https://dillonmok.com",
+    "language": "en",
+    "description": "I'm a software engineering student, developer and musician.",
+    "feed": {
+        "filename": "feed.xml"
+    },
+    "author": {
+        "name": "Dillon Mok",
+        "email": "dillon@dillonmok.com"
+    },
+    "fediverse": "dillonmok@mastodon.social"
+}

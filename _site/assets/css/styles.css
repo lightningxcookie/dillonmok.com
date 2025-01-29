@@ -1,0 +1,110 @@
+@import 'container.css';
+@import 'colors.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'fonts.css';
+@import 'apps.css';
+
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    font-family: 'TitiliumWeb', system-ui, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+
+    background: var(--background-color);
+    color: var(--text);
+    
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: var(--text);
+}
+
+a, a:visited {
+    color: var(--tertiary);
+}
+
+h1 {
+    font-family: 'Rubik-Bold', system-ui, sans-serif;
+    font-size: 1.3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--text);
+}
+
+h2 {
+    font-family: 'Rubik-Bold', system-ui, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+h3 {
+    font-family: 'Rubik-Bold', system-ui, sans-serif;
+    font-size: 1.2em;
+    color: var(--quaternary);
+}
+
+h2, h2 a {
+    color: var(--secondary);
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
+
+#homepage-greeting {
+    color: var(--primary);
+}
+
+.post-title {
+    color: var(--primary);
+    font-size: 1.75em;
+}
+
+.post-date {
+    margin-top: 0;
+}
+
+article p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article-date {
+    font-size: 0.8em;
+}
+
+.article-title {
+    margin-bottom: 0;
+}
+
+lite-youtube {
+    margin: 0 auto;
+}
+
+.tags {
+    display: flex;
+}
+
+.tags-label {
+    margin-right: 0.25em;
+}
+
+.tag-list {
+    list-style-type: none;
+    padding: 0;
+}

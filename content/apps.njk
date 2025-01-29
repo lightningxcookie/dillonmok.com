@@ -1,0 +1,25 @@
+---
+title: "Apps"
+layout: "page.njk"
+eleventyNavigation:
+    key: apps
+
+---
+
+{%- for app in apps %} 
+
+<div class="app-block">
+
+    <img src="{{ app.icon }}">
+
+    <div class="app-text">
+
+        <h2><a href="{{ app.url }}">{{ app.title }}</a></h2>
+
+        <p>{{ app.description }}</p>
+
+    </div>
+
+</div>
+
+{% endfor %}

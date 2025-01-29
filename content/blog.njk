@@ -1,0 +1,26 @@
+---
+layout: 'page.njk'
+title: "Blog"
+---
+
+Subscribe to my RSS feed.
+
+{% set year = 2000 %}
+
+{%- for article in collections.articles %}
+
+{%- set articleYear = article.data.date.getFullYear() %}
+
+{% if articleYear != year %}
+    <h2>{{ articleYear }}</h2>
+{% endif %}
+
+<article>
+    <h3 class="article-title"><a href="{{ article.url }}">{{ article.data.title }}</a></h3>
+    <p>{{ article.data.excerpt }}</p>
+    <p class="article-date">{{ article.data.date.toISOString() | fullDate }}</p>
+</article>
+
+{% set year = articleYear %}
+
+{% endfor %}

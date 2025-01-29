@@ -1,0 +1,22 @@
+:root {
+    
+    --nearblack: #191919;
+    --darkgrey: #28282B;
+    --offwhite: #F9F9F9;
+    --offwhite-dark: #F1F1F1;
+    /* --red: #F53E3B; */
+    --red: #DA0F0B;
+    --red-sat: #F96A67;
+    --purple: #4F58C9;
+    --darkblue-sat: #878CD9;
+    /* --blue: #4ba3c3; */
+    --blue: #006EB3;
+    --blue-sat: #3AA7CF;
+    --quaternary: #f9c80e;
+
+    --primary: light-dark(var(--red), var(--red-sat));
+    --secondary: light-dark(var(--purple), var(--darkblue-sat));
+    --tertiary: light-dark(var(--blue), var(--blue-sat));
+    --background-color: light-dark(var(--offwhite), var(--darkgrey));
+    --text: light-dark(var(--nearblack), var(--offwhite-dark));
+}
