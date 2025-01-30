@@ -13,11 +13,11 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./assets");
 
     eleventyConfig.addCollection("articles", (collection) => {
-        return collection.getFilteredByGlob("./content/blog/*.md").reverse();
+        return collection.getFilteredByGlob("./src/blog/*.md").reverse();
     });
 
     eleventyConfig.addCollection("latestPosts", (collection) => {
-        return collection.getFilteredByGlob("./content/blog/*.md").reverse().slice(0, 5);
+        return collection.getFilteredByGlob("./src/blog/*.md").reverse().slice(0, 5);
     });
 
     eleventyConfig.addFilter("getAllTags", (collection) => {
@@ -44,9 +44,7 @@ export default async function(eleventyConfig) {
 
     return {
         dir: {
-            input: "content",
-            includes: "../_includes",
-            data: "../_data",
+            input: "src",
             output: "_site"
         }
     }
