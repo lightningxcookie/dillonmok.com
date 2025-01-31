@@ -4,12 +4,31 @@
     <subtitle>I&#39;m a software engineering student, developer and musician.</subtitle>
     <link href="https://dillonmok.com/feed.xml" rel="self"/>
     <link href="https://dillonmok.com"/>
-    <updated>2025-01-01T23:11:00Z</updated>
+    <updated>2025-01-31T03:56:00Z</updated>
     <id>https://dillonmok.com</id>
     <author>
         <name>Dillon Mok</name>
         <email>dillon@dillonmok.com</email>
     </author>
+        
+        <entry>
+            <title>Website Revamp for 2025</title>
+            <link href="https://dillonmok.com/blog/website-revamp-2025/"/>
+            <updated>2025-01-31T03:56:00Z</updated>
+            <id>https://dillonmok.com/blog/website-revamp-2025/</id>
+            <content type="html">&lt;p&gt;Welcome to my all-new, redesigned website built from the ground up for 2025.&lt;/p&gt;
+&lt;p&gt;Why did I redesign my website? The old design was fine, it had a few weird formatting issues but it did its job so I never bothered to fix it. With the new year approaching, I wanted to get back into blogging. It had been more than a year since I launched my website and blog, with the goal of writing one post every week. That streak did not last very long, and I stopped blogging entirely after October. I learned that weekly blogging probably wasn&#39;t the right approach for me, but I still very much wanted to write. However, I wasn&#39;t really proud of how my website looked and that became a demotivating factor. I figured it was time for a new design.&lt;/p&gt;
+&lt;p&gt;The biggest change is probably the homepage, which is no longer a long scrolling feed of my posts. Instead, it&#39;s more of an about page with a quick bio and links to the blog and project pages. The homepage feels a little empty currently, although I plan to build it out over time as I add new types of content to the website.&lt;/p&gt;
+&lt;p&gt;I&#39;ve changed the body font to something a little futuristic and nerdy, I think it suits me quite well. This new design also incorporates more colours. I originally had a colour palette that looked great to me but turned out to have terrible contrast. I&#39;ve modified it to improve readability, it&#39;s not quite the original vision I had but still gets the job done in adding visual appeal and contrast.&lt;/p&gt;
+&lt;p&gt;For the sake of history, here&#39;s what the old website, or the 2024 design looked like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.dillonmok.com/website-design-2024.png&quot; alt=&quot;The old website design&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Now not only did I redesign my website, I also rewrote the thing from scratch and made some changes to the backend as well.&lt;/p&gt;
+&lt;p&gt;The first and smaller change is that I moved my domain from &lt;a href=&quot;https://www.hover.com&quot;&gt;Hover&lt;/a&gt; to &lt;a href=&quot;https://www.hover.com&quot;&gt;Cloudflare&lt;/a&gt; domains. I signed up for Hover at a discount back in 2023 after an ad read on a &lt;a href=&quot;https://relay.fm&quot;&gt;Relay&lt;/a&gt; show. In the last two years it&#39;s been rock solid, the control panel interface is easy to use and I have no complaints. I even paid for a second year at the full price of $18.99 USD. However, I recently discovered that Cloudflare offers domain registration for only $10.44 USD/year, so with my domain renewal approaching I figured I&#39;d give Cloudflare a try and save a little money which I plan to put towards some new side projects.&lt;/p&gt;
+&lt;p&gt;The second and much more major change is that I rewrote the website using &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;. The old website was built using the &lt;a href=&quot;https://github.com/johnsundell/publish&quot;&gt;Publish&lt;/a&gt; static site generator. As a Swift developer and fan of &lt;a href=&quot;https://www.swiftbysundell.com&quot;&gt;John Sundell&lt;/a&gt;&#39;s work, Publish seemed an obvious choice when I wanted to build a website. Unfortunately, development on the project has been inactive (the last commit to the repository was 2 years ago) and there isn&#39;t a lot of documentation or a large community around it so I struggled to add new features or changes beyond the basics.&lt;/p&gt;
+&lt;p&gt;Eleventy, on the other hand, is highly customisable and versatile, has lots of documentation and a large community with tutorials, source code and plugins available so it seemed like an easy choice. So far I&#39;ve been very happy with it, I got a fully functioning website up and running over a weekend. Now that I&#39;ve got a basic understanding of how Eleventy works, I should be able to easily add new content sections and new features through plugins.&lt;/p&gt;
+&lt;p&gt;So that&#39;s how I got to where the website is today. I&#39;m excited and looking forward to this next year of blogging. With a fresh website built on a new foundation, it&#39;s now easier than ever to share my thoughts with the world and expand the website to meet my needs. I won&#39;t set any goals this time, I&#39;ll just write when I have something worth sharing, seeing where it takes me. I&#39;m glad to have you along the ride.&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Top Albums of 2024</title>
