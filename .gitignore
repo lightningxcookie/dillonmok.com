@@ -1,5 +1,5 @@
+
 node_modules
-public
 config.json
 .cache
 
@@ -8,6 +8,3 @@ tmp
 nginx.conf
 
 .DS_Store
-._.DS_Store
-**/.DS_Store
-**/._.DS_Store
