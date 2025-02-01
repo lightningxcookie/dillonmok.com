@@ -1,6 +1,7 @@
 .app-block img {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
+    aspect-ratio: 1;
 }
 
 .app-block {
@@ -23,4 +24,10 @@
 
 .app-text {
     margin: auto 0;
+}
+
+@media screen and (max-width: 600px) {
+    .app-block {
+        display: inline-block;
+    }
 }

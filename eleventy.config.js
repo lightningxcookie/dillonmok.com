@@ -10,7 +10,7 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-    eleventyConfig.addPassthroughCopy("./assets");
+    eleventyConfig.addPassthroughCopy("./src/assets");
 
     eleventyConfig.addCollection("articles", (collection) => {
         return collection.getFilteredByGlob("./src/blog/*.md").reverse();
@@ -46,6 +46,9 @@ export default async function(eleventyConfig) {
         dir: {
             input: "src",
             output: "_site"
-        }
-    }
+        },
+        markdownTemplateEngine: "njk",
+        dataTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+    };
   };

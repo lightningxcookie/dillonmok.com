@@ -3,6 +3,7 @@ eleventyNavigation:
     key: music
 title: Music
 layout: 'page.njk'
+permalink: "/music/"
 ---
 
 

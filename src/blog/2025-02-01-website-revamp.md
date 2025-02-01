@@ -1,7 +1,7 @@
 ---
 title: 'Website Revamp for 2025'
 permalink: /blog/website-revamp-2025/
-date: 2025-01-31T03:56:00Z
+date: 2025-02-01T01:26:00Z
 excerpt: 'Welcome to my redesigned website for 2025.'
 tags: ["introduction"]
 ---
