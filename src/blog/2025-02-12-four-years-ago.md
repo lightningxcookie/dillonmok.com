@@ -1,7 +1,7 @@
 ---
 title: "Four Years Ago"
 permalink: /blog/four-years-ago/
-date: 2025-02-11T22:00:00Z
+date: 2025-02-11T21:00:00Z
 excerpt: "The release of my debut album."
 tags: ["music"]
 ---
