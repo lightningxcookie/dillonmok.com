@@ -6,7 +6,11 @@ layout: 'page.njk'
 permalink: "/music/"
 ---
 
+## Original Music
 
+My debut album Four Years Ago is available on [Spotify](https://open.spotify.com/album/1fZsXGI9lt7uLKxsVW05yO), [Apple Music](https://music.apple.com/nz/album/four-years-ago/1794185490), and [YouTube](https://www.youtube.com/playlist?list=PLLpzqG7j3kj6YI5ImREnblmyMn-MNtNJp) and other popular streaming platforms. If you'd like to support me extra, you can buy it on [Bandcamp](https://dillonmok.bandcamp.com/album/four-years-ago).
+
+Read the announcement post [here](/blog/four-years-ago).
 
 ## Covers
 
