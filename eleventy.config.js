@@ -2,6 +2,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import eleventyRssPlugin from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
+import markdownItFootnote from "markdown-it-footnote";
 import embedYouTube from "eleventy-plugin-youtube-embed";
 
 import dateFilters from "./config/filters/date.js";
@@ -39,7 +40,10 @@ export default async function(eleventyConfig) {
         linkify: true
     };
 
-    let markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
+    let markdownLib = markdownIt(markdownItOptions)
+        .use(markdownItAttrs)
+        .use(markdownItFootnote);
+
     eleventyConfig.setLibrary("md", markdownLib);
 
     return {

@@ -9,7 +9,8 @@
     "eleventy-plugin-youtube-embed": "^1.11.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
-    "markdown-it-attrs": "^4.3.1"
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0"
   },
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
