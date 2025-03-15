@@ -20,7 +20,7 @@ For example, if you wanted to write the fraction 1/2, you would normally have to
 
 But with Latex Suite enabled, all you gotta type is
 ```
-1 / 2
+1/2
 ```
 
 and the plugin with take of the rest.

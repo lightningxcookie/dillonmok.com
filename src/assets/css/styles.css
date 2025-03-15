@@ -117,3 +117,15 @@ hr {
     font-size: 1em;
     margin: 0;
 }
+
+pre {
+    padding: 1.25em 1em;
+    background-color: var(--code);
+}
+
+code {
+    font-family: ui-monospace, "Source Code Pro", Menlo, monospace;
+    font-size: 0.9em;
+    background-color: var(--code);
+    color: var(--offwhite-dark);
+}
