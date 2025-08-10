@@ -5,18 +5,19 @@ title: What I'm Doing Now
 layout: 'page.njk'
 permalink: "/now/"
 ---
-_Last updated 9 June 2025_
+_Last updated 10 August 2025_
 
-Here's what I've been up to:
-- I'm heading into exam season for this semester. I've got three exams in the span of three weeks. Afterwards I will hopefully have more time for writing blog posts.
+It's been a minute since I have updated this page. Missed the entire month of July, but I'm back now.
 
-- Last year I went all-in on Obsidian for note-taking. It hasn't been as good I originally hoped, mainly because the Obsidian iPhone app remains janky. I have now gone back to Apple Notes for my random, everyday notes, but remain using Obsidian for study notes, project notes and blogging (things I did not access on my phone anyway).
+## What I've Been Up To
+- I'm trying out [Todoist](http://todoist.com/) as my task manager. It's too early to comment on anything yet, but I'll share thoughts as I get into it more.
 
-- I bought a Nintendo Switch a few weeks ago. I got a good deal on a second-hand OLED model (it was practically brand new), and am having fun playing Mario Kart 8 (it's satisfying all my cravings for Sonic and SEGA All-Stars Racing) and Pico Park.
+- After initial tests in the Simulator, Mochi Pets appears to work just fine in the iOS 26 betas. I don't currently have a sacrificial device for testing purposes, although that might change for the public release. For now, I'm experimenting updating our app icons with [Icon Composer](https://developer.apple.com/icon-composer/).
 
-And for the media I've been enjoying:
+## Media I've Been Enjoying
+- I'm a little late to the hype, but I've been really enjoying the song [Will You Love Me When I'm Dead](https://open.spotify.com/album/2zs0gJMS21tocKOXpWvPxU?si=tZa3W02HTh2BD6-ULWR0TA) by Amira Elfeky.
 
-- Jon Bellion's new album _FATHER FIGURE_ is really good. I fell in love with Jon Bellion with _The Human Condition_, then his next album _Glory Sound Prep_ was good but didn't capture me the same way. This new album has the same magic as the _The Human Condition_, at least for me. These albums are the my jams for my second year of high school and university respectively. Coincidence?
+- There's been a bunch of great releases in metal music: Slaughter to Prevail's new album [GRIZZLY](https://open.spotify.com/album/6RIsDIL38i8Z0ftmRChVf2?si=Wbzk0nQFTyugIhoNo6bZkg), Babymetal's new album [METAL FORTH](https://open.spotify.com/album/7JAioi7aQOS0VenAg3xfrp?si=tKvUVLFoS5icqD9yaHEBZQ), and [this EP](https://open.spotify.com/album/7JeN1aczcGqtq4TZ5ljZm9?si=IOLuLALITPyVDSjCQRY7bw) by Deadlands
 
-- [_NEVER ENOUGH_](https://open.spotify.com/album/52yD51X7yDinwlg6tbCtpP?si=HKm4To2YSWOdSqkrnO9yxQ) is Turnstile's new album. There are a lot of great songs on this one, their sound continues to evolve from the previous album _GLOW ON_ with more electronic sounds, while keeping the heavy guitars and massive drums. I want to give a shoutout to the trumpet part in _DREAMING_, it made me really happy when I first heard it.
+
 
