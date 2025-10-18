@@ -5,19 +5,15 @@ title: What I'm Doing Now
 layout: 'page.njk'
 permalink: "/now/"
 ---
-_Last updated 10 August 2025_
-
-It's been a minute since I have updated this page. Missed the entire month of July, but I'm back now.
+_Last updated 18 October 2025_
 
 ## What I've Been Up To
-- I'm trying out [Todoist](http://todoist.com/) as my task manager. It's too early to comment on anything yet, but I'll share thoughts as I get into it more.
+- I've started a [Leetcode](https://leetcode.com) challenge with a group of friends, to complete the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) list by the end of the year. There are 74 days left in the year so that's around 2 problems a day. The rule is that you've to got to at least one every day, otherwise you're out of the challenge. Five days in, we're going strong but I can tell it's already getting a lot harder.
 
-- After initial tests in the Simulator, Mochi Pets appears to work just fine in the iOS 26 betas. I don't currently have a sacrificial device for testing purposes, although that might change for the public release. For now, I'm experimenting updating our app icons with [Icon Composer](https://developer.apple.com/icon-composer/).
+- I released an instrumental guitar cover of [After the Storm](https://youtu.be/9E81THhtKgs) by Kali Uchis. Quite happy with how this one turned out. I used one of the new LUTs included in the Blackmagic Camera app to film it, and will be doing more experimentation with LUTs in future videos.
 
 ## Media I've Been Enjoying
-- I'm a little late to the hype, but I've been really enjoying the song [Will You Love Me When I'm Dead](https://open.spotify.com/album/2zs0gJMS21tocKOXpWvPxU?si=tZa3W02HTh2BD6-ULWR0TA) by Amira Elfeky.
+- The [Jam House](https://youtu.be/BjsyjlLSyqc?si=XG5qvUk97hdIYfda) series by [Jared Dines](https://www.youtube.com/@JaredDines_). It's not Musician Mansion season 3, but it's got a great cast with familiar faces plus some new ones, fun shenanigans and inspiring musical talent as always. [Brandon Acker](https://www.youtube.com/@brandonacker) has got to be the highlight of the series.
 
-- There's been a bunch of great releases in metal music: Slaughter to Prevail's new album [GRIZZLY](https://open.spotify.com/album/6RIsDIL38i8Z0ftmRChVf2?si=Wbzk0nQFTyugIhoNo6bZkg), Babymetal's new album [METAL FORTH](https://open.spotify.com/album/7JAioi7aQOS0VenAg3xfrp?si=tKvUVLFoS5icqD9yaHEBZQ), and [this EP](https://open.spotify.com/album/7JeN1aczcGqtq4TZ5ljZm9?si=IOLuLALITPyVDSjCQRY7bw) by Deadlands
-
-
+- Recently discovered the band Stray From The Path, loved their album [Clockworked](https://open.spotify.com/album/2o9l5zN6SgYLCmL5dcsDfv?si=oa1MQkEZQ_upFz9F3qhOlQ) so I'm checking out the rest of their discography. It's aggressive, heavy, and has great grooves.
 
