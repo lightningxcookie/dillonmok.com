@@ -5,15 +5,16 @@ title: What I'm Doing Now
 layout: 'page.njk'
 permalink: "/now/"
 ---
-_Last updated 18 October 2025_
+_Last updated 30 May 2026_
 
 ## What I've Been Up To
-- I've started a [Leetcode](https://leetcode.com) challenge with a group of friends, to complete the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) list by the end of the year. There are 74 days left in the year so that's around 2 problems a day. The rule is that you've to got to at least one every day, otherwise you're out of the challenge. Five days in, we're going strong but I can tell it's already getting a lot harder.
 
-- I released an instrumental guitar cover of [After the Storm](https://youtu.be/9E81THhtKgs) by Kali Uchis. Quite happy with how this one turned out. I used one of the new LUTs included in the Blackmagic Camera app to film it, and will be doing more experimentation with LUTs in future videos.
+- I vibe-coded a Safari extension for hiding distractions from YouTube: mainly Shorts, video comments and the recommended feeds. It's simple but highly useful. I might put it up on GitHub at some point after giving it some polish.
+- I'm trying out [DockDoor](https://dockdoor.net) as my macOS window switcher after using AltTab for many years. It took me a while to get a visual setup that I'm happy with, but after dialling it in it's been working great so far. I'm not yet entirely sold on the dock previews, but I'll give it some more time before further judgement.
+- After too long, I'm working on the next update for Mochi Pets. I am still on macOS Sequoia - it might be time for me to upgrade if I need to use Xcode 26 on Tahoe.
 
-## Media I've Been Enjoying
-- The [Jam House](https://youtu.be/BjsyjlLSyqc?si=XG5qvUk97hdIYfda) series by [Jared Dines](https://www.youtube.com/@JaredDines_). It's not Musician Mansion season 3, but it's got a great cast with familiar faces plus some new ones, fun shenanigans and inspiring musical talent as always. [Brandon Acker](https://www.youtube.com/@brandonacker) has got to be the highlight of the series.
+## What I've Been Enjoying
 
-- Recently discovered the band Stray From The Path, loved their album [Clockworked](https://open.spotify.com/album/2o9l5zN6SgYLCmL5dcsDfv?si=oa1MQkEZQ_upFz9F3qhOlQ) so I'm checking out the rest of their discography. It's aggressive, heavy, and has great grooves.
-
+- Roland-Garros 2026. With Djokovic and Sinner out, we're gonna get a new slam winner on the men's side. How exciting!
+- New Mirar album [_Gradus Ad Parnassum_](https://open.spotify.com/album/68ftoQI39wNu0VTTsVp0Pg?si=597IjxB2TgC0ElIbvsDMnQ). A few songs on this record feature opera vocals which sound sick.
+- Lorna Shore are playing in Auckland in October. This year is shaping up to be absolutely stacked in terms of metal concerts.
